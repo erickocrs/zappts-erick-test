@@ -5,7 +5,6 @@ import { Carousel } from 'react-responsive-carousel';
 import sliderImgMini from '../../assets/images/slider-image-mini.png';
 import sliderImg from '../../assets/images/slider-image.png';
 
-
 const Slider = () => {
   return (
       <div className="box-slider">
@@ -15,7 +14,7 @@ const Slider = () => {
             useKeyboardArrows={true}
             infiniteLoop={true}
             emulateTouch={true}
-            swipeScrollTolerance={0}
+            swipeScrollTolerance={-10}
             showArrows={false}
             showThumbs={false}
             showStatus={false}>

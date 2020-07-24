@@ -40,6 +40,34 @@
         color:#707070;
         text-align: left;
       }
+
+      input[type="text"],
+      input[type="password"]{
+        width:100%;
+        border:0;
+        border-bottom: 1px solid #707070;
+        padding: 13px 21px;
+        box-sizing: border-box;
+        outline: 0;
+    
+        font-family: $font;
+        color:#000000;
+        font-size: 16px;
+        font-weight:400;
+      }
+    
+      input[type="text"]::placeholder{
+        color:#000000;
+      }
+
+      &.form-error{
+        
+        input[type="text"],
+        input[type="password"]{
+
+          border-color: #e81111;
+        }
+      }
     }
   
     .btn{
@@ -62,6 +90,7 @@
       font-size:14px;
       font-weight: 400;
       color:#A9C5BA;
+      cursor: pointer;
   
       &.link-gray{
         text-align: right;
@@ -71,24 +100,6 @@
       }
     }
   
-    input[type="text"],
-    input[type="password"]{
-      width:100%;
-      border:0;
-      border-bottom: 1px solid #707070;
-      padding: 13px 21px;
-      box-sizing: border-box;
-      outline: 0;
-  
-      font-family: $font;
-      color:#000000;
-      font-size: 16px;
-      font-weight:400;
-    }
-  
-    input[type="text"]::placeholder{
-      color:#000000;
-    }
   
     .form-detailed-spacement{
       width: 80%;
