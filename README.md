@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="public/logo-zappts.svg" alt="Logo" width="140" >
+  <img src="public/logo-zappts.png" alt="Logo" width="140" >
 
   <h3 align="center">Zappts FrontEnd Test</h3>
 
