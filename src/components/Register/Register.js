@@ -87,7 +87,7 @@ const Register = () => {
         <div className="form-box form-register">
             <h3>Getting Started</h3>
             <div className={"form-row " + (!nameValidation() ? "form-error" : "" )}>  
-                <span>Full name</span>
+                <span>Full Name</span>
                 <input type="text"
                 placeholder="Carolina Galvão dos Santos Zaglia"
                 value={user.name.value}
@@ -122,7 +122,7 @@ const Register = () => {
             </div>
             <div className="form-row">
                 <div className="btn-google" role="button">                    
-                    <span>Sign in with Google</span>
+                    <span>Sign up with Google</span>
                 </div>
             </div>
             <div className="form-row">

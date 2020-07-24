@@ -8,19 +8,29 @@
   width:100%;
   min-height: 100vh;
   
-  *{
-    margin:0;
-    padding:0;
-    border:0;
-    outline: 0;
+  @media (max-width: $mobile-size) {
+    flex-direction: column;
   }
 }
 
-.col6{
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  outline: 0;
+}
+
+.col{
   display: flex;
   flex-direction: column;
   width:50%;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: $mobile-size) {
+    width: 100%;
+    min-height: unset;
+  }
+
 }

@@ -6,24 +6,19 @@
   
 .App-header {
     display: flex;
-    position: relative;
-    width: 100%;
-    margin: 11px 26.3% 9.3% 0;
+    position: absolute;
     flex-direction:row;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: flex-end;
 
-}
-
-.App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-from {
-    transform: rotate(0deg);
-}
-to {
-    transform: rotate(360deg);
-}
+    width: 100%;
+    top:0;
+    right: 0;
+    margin:6.75% 6.6% 0 0 ;
+        
+    @media (max-width: 1700px) {
+        position: relative;
+        top:auto;left:auto;right:auto;
+        margin:10% 10% 0 0;        
+    }
 }

@@ -10,18 +10,13 @@ import { Route } from "react-router-dom";
 const App = () => {
   return (
     <div className="App">
-      <div className="col6">
+      <div className="col">
         <Slider/>
       </div>
-      <div className="col6">
+      <div className="col">
         <Header/>
-        <Route path={["/register"]} exact={true} component={() => 
-          <Register/>
-        }/>
-        <Route path={["/"]} exact={true} component={() =>
-          <Login/>
-        }/>
-        
+        <Route path={["/register"]} exact={true} component={() => <Register/> }/>
+        <Route path={["/"]} exact={true} component={() => <Login/> }/>        
       </div>
     </div>
   );

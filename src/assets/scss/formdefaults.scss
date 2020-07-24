@@ -3,11 +3,18 @@
 
     display:flex;
     width:100%;
-    max-width: 436px;
+    max-width: 470px;
     flex-direction: column;
   
-    padding: 0 20px;
+    padding: 11.9% 20px 0;
     box-sizing: border-box;
+
+    animation: teste 500ms 1;
+
+    @keyframes teste {
+      0%{opacity: 0;}
+      100%{opacity: 1;}
+    }
   
     h3{
       font-size:30px;

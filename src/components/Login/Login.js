@@ -102,7 +102,7 @@ const Login = () => {
                 </div>
             </div>
             <div className="form-row">
-                <h6>New <strong>Inivision?</strong> <Link to={"/register"}>Create Account</Link></h6>
+                <h6>New <strong>Invision?</strong> <Link to={"/register"}>Create Account</Link></h6>
                 
             </div>
         </div>
