@@ -24,7 +24,7 @@ Zappts Test for FrontEnd Developer, build with React.js.
 
 1. Clone the repo
 ```sh
-git clone https://github.com/erickocrs/bovcontrol-erick-api.git
+git clone https://github.com/erickocrs/zappts-erick-test.git
 ```
 2. Install NPM packages
 ```sh
