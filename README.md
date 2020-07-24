@@ -3,10 +3,10 @@
 <p align="center">
   <img src="public/logo-zappts.png" alt="Logo" width="140" >
 
-  <h3 align="center">Zappts FrontEnd Test</h3>
+  <h3 align="center">FrontEnd Test</h3>
 
   <p align="center">
-    [React.js] Test Erick OCRS.
+    [React.js] Challenge Erick OCRS.
   </p>
 </p>
 
