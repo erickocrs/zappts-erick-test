@@ -23,6 +23,13 @@
         color:#707070;
         text-align: center;
     }
+
+    h4{
+      
+      color:#707070;
+      font-size:14px;
+      margin-bottom: 20px;
+    }
   
     .form-row{
       display:flex;
@@ -86,13 +93,15 @@
     }
   
     a{
-      width: 100%;
-      font-size:14px;
+      font-size:16px;
       font-weight: 400;
       color:#A9C5BA;
       cursor: pointer;
+      text-decoration:underline;
   
       &.link-gray{
+        font-size:13.9px;
+        width: 100%;
         text-align: right;
         color:#707070;
         margin-bottom: 10px;
@@ -100,6 +109,16 @@
       }
     }
   
+    p{
+      font-family: $font;
+      font-size:13.9px;
+      color:#707070;
+      font-weight: 400;
+      strong{
+        font-weight: 900;
+        color:#3f3f3f;
+      }
+    }
   
     .form-detailed-spacement{
       width: 80%;

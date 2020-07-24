@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.scss';
+import { Link } from "react-router-dom";
 
 const Login = () => {
 
@@ -101,7 +102,8 @@ const Login = () => {
                 </div>
             </div>
             <div className="form-row">
-                <h6>New <strong>Inivision?</strong> <a href="#">Create Account</a></h6>
+                <h6>New <strong>Inivision?</strong> <Link to={"/register"}>Create Account</Link></h6>
+                
             </div>
         </div>
     );
