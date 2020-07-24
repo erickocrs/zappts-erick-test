@@ -61,7 +61,9 @@ const Login = () => {
         if(allFieldsValidation())
         {
             //All Validated - Call BackEnd
+            return true;
         }
+        else{ return false; }
     }
 
     return (
@@ -87,7 +89,7 @@ const Login = () => {
                 <a className="link-gray">Forgot password?</a>
             </div>
             <div className="form-row">
-                <div className="btn" onClick={signInHandler}>
+                <div className="btn btn-signin" onClick={signInHandler}>
                     <span>Sign in</span>
                 </div>
             </div>
